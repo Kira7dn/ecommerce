@@ -1,11 +1,8 @@
-import { Box, Typography, useMediaQuery } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import image from "@/assets/Frame 20.png";
 import { tokens } from "@/theme";
-import { useTheme } from "@mui/material/styles";
 
 const HeroSection = (): JSX.Element => {
-  const theme = useTheme();
-  const isSmall = useMediaQuery(theme.breakpoints.down("sm"));
   return (
     <Box
       sx={{

@@ -9,7 +9,7 @@ import Home from "./scenes/home/Home";
 import Footer from "./scenes/global/Footer";
 import CartMenu from "./scenes/global/CartMenu";
 import { useEffect } from "react";
-import ItemDetail from "./scenes/itemDetail/itemDetail";
+import ItemDetail from "./scenes/itemDetail/ItemDetail";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();

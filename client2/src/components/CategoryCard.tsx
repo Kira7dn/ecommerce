@@ -1,4 +1,4 @@
-import { Box, Typography, Button } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 
 type Props = {
   image?: string;
@@ -10,7 +10,7 @@ type Props = {
 };
 
 const CategoryCard = (props: Props): JSX.Element => {
-  const { image, title1, title2, btnTitle, color } = props;
+  const { image, title1, title2, color } = props;
   return (
     <Box
       sx={{
